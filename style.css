@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: #222;
+  color: #444;
 }
 
 body {
@@ -12,7 +12,18 @@ body {
   overflow: hidden;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  color: #222;
+  color: #444;
+}
+
+body.fireinthehole{
+  animation: strobo infinite .1s;
+}
+
+@keyframes strobo {
+  0% {
+    background-color: #444;
+    color: #fff;
+  }
 }
 
 .container {
@@ -27,13 +38,13 @@ nav {
   display: none;
   text-align: right;
   margin: 20px 0 10px 0;
-  color: #222;
+  color: #444;
   text-decoration: none;
 }
 
 footer {
   display: none;
-  background-color: #222;
+  background-color: #444;
   color: white;
   padding: 15px;
   position: absolute;

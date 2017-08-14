@@ -21,5 +21,13 @@
   </footer>
 </div>
 
+<script type="text/javascript">
+  document.addEventListener ("keydown", function (event) {
+    var code = event.keyCode || event.which
+    if(code === 32){
+      document.querySelector('body').classList.toggle('fireinthehole');
+    }
+  } );
+</script>
 </body>
 </html>
