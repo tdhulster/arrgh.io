@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: #444;
+  color: white;
 }
 
 body {
@@ -12,7 +12,8 @@ body {
   overflow-x: hidden;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  color: #444;
+  color: #333;
+  margin: 0;
 }
 
 body.fireinthehole{
@@ -21,7 +22,7 @@ body.fireinthehole{
 
 @keyframes strobo {
   0% {
-    background-color: #444;
+    background-color: #333;
     color: #fff;
   }
 }
@@ -38,17 +39,17 @@ nav {
   display: none;
   text-align: right;
   margin: 20px 0 10px 0;
-  color: #444;
+  color: #333;
   text-decoration: none;
 }
 
 footer {
-  width: 264px;
+  background: #333;
+  width: 100%;
   display: block;
   color: white;
   text-align: center;
-  border-top: 5px solid #444;
-  margin-top: -13px;
+  margin-top: -10px;
   padding: 60px 0;
   text-transform: uppercase;
 }
