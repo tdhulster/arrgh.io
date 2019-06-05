@@ -54,6 +54,12 @@ footer {
   text-transform: uppercase;
 }
 
+footer address{
+    font-style: normal;
+    margin-top: 60px;
+    line-height: .5rem;
+}
+
 .logo-container {
   display: flex;
   height: 100%;
